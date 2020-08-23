@@ -54,11 +54,11 @@ export default function App() {
 
               <View style={styles.techsContainer}>
                 {
-                  repository.techs.map((tech) => {
+                  repository.techs.map((tech) => (
                     <Text id={tech} style={styles.tech}>
                       {tech}
                     </Text>
-                  })
+                  ))
                 }
               </View>
 
